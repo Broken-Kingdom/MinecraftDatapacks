@@ -2,7 +2,7 @@
 
 
 scoreboard players enable @a cmdTrigger
-execute as @a at @a unless score @s 64 = 9999999999999999999998 64 run scoreboard players set @s 64 64
+execute as @a at @a unless score @s 64 matches 64 run scoreboard players set @s 64 64
 function sselesupack:oregenerator/diamond/creatediagen
 function sselesupack:oregenerator/gold/creategoldgen
 function sselesupack:oregenerator/iron/createirongen

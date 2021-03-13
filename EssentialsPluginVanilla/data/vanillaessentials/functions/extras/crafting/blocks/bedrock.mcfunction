@@ -1,0 +1,3 @@
+
+
+execute as @e[type=armor_stand,name=Crafter] at @s if block ~ ~-1 ~ dropper{Items: [{Slot: 0b, id: "minecraft:obsidian", Count: 32b}, {Slot: 1b, id: "minecraft:obsidian", Count: 32b}, {Slot: 2b. , id: "minecraft:obsidian", Count: 32b}, {Slot: 3b, id: "minecraft:obsidian", Count: 32b}, {Slot: 4b, id: "minecraft:obsidian", Count: 32b}, {Slot: 5b, id: "minecraft:obsidian", Count: 32b}, {Slot: 6b, id: "minecraft:obsidian", Count: 32b}, {Slot: 7b, id: "minecraft:obsidian", Count: 32b}, {Slot: 8b, id: "minecraft:obsidian", Count: 32b}]} run data merge block ~ ~-1 ~ {Items: [{Slot: 4b, id: "minecraft:bedrock", Count: 1b}]}

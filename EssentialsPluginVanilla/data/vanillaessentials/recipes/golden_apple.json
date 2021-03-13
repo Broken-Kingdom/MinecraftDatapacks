@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#E#",
+        "DBD",
+        "#E#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:obsidian"
+        },
+        "E": {
+            "item": "minecraft:emerald_block"
+        },
+        "D": {
+            "item": "minecraft:diamond_block"
+        },
+        "B": {
+            "item": "minecraft:bedrock"
+        }
+    },
+    "result": {
+        "item": "minecraft:enchanted_golden_apple",
+        "count": 1
+    }
+}

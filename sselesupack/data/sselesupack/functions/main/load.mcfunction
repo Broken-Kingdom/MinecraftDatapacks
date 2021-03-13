@@ -1,9 +1,8 @@
 # Made by sselesUssecnirP
 
-execute unless score @e[type=armor_stand,nbt={NoGravity: 1b, Invisible: 1b, CustomName:"{\"text\":\"LoadStatus\"}"}] loaded matches 1 summon armor_stand 0 257 {NoGravity: 1b, Invisible: 1b, CustomName:"{\"text\":\"LoadStatus\"}"}
+execute unless score @e[type=armor_stand,name=LoadStatus] loaded matches 1 run summon armor_stand 0 0 0 {NoGravity: 1b, Invisible: 1b, CustomName:"{\"text\":\"LoadStatus\"}"}
 forceload 0 0 -1 -1
 execute unless score @e[type=armor_stand,name=LoadStatus] loaded matches 1 run scoreboard objectives add 64 dummy "64"
-execute unless score @e[type=armor_stand,name=LoadStatus] loaded matches 1 run scoreboard players set 9999999999999999999998 64 64
 execute unless score @e[type=armor_stand,name=LoadStatus] loaded matches 1 run scoreboard objectives add emerald dummy "Emerald"
 execute unless score @e[type=armor_stand,name=LoadStatus] loaded matches 1 run scoreboard objectives add diamond dummy "Diamond"
 execute unless score @e[type=armor_stand,name=LoadStatus] loaded matches 1 run scoreboard objectives add iron dummy "Iron"
