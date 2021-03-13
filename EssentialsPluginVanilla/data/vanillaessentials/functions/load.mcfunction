@@ -1,0 +1,5 @@
+scoreboard objectives add time dummy "Time"
+scoreboard objectives add explosion dummy "Explosion"
+scoreboard objectives add teleportm1 trigger "Teleport Menu 1"
+scoreboard objectives add teleport1 trigger "Teleport Menu 1 (#1)"
+scoreboard objectives add menu dummy "Menu"

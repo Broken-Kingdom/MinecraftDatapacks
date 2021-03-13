@@ -1,0 +1,3 @@
+function vanilliaessentials:cmdmenu
+function vanillaessentials:menus
+function vanillaessentials:trigger
