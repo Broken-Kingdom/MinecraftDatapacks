@@ -1,0 +1,33 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item: {id: \"minecraft:netherite_block\"}}",
+				"location": {
+					"fluid": {
+						"fluid": "minecraft:flowing_lava",
+						"tag": "minecraft:lava"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item: {id: \"minecraft:netherite_block\"}}",
+				"location": {
+					"fluid": {
+						"fluid": "minecraft:lava",
+						"tag": "minecraft:lava"
+					}
+				}
+			}
+		}
+	]
+}
