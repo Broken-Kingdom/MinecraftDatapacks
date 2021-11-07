@@ -5,8 +5,8 @@
 ########################
 ### Life giver/taker ###
 ########################
-execute as @a[gamemode=!spectator,tag=!immune] at @s if score @s deaths = @e[type=armor_stand,name="LoadStatus",limit=1] maxDeaths run gamemode spectator @s
-execute as @a[gamemode=!survival,tag=!immune] at @s unless score @s deaths >= @e[type=armor_stand,name="LoadStatus",limit=1] maxDeaths run gamemode survival @s
+execute as @a[gamemode=!spectator,tag=!immune] at @s if score @s deaths = @e[type=armor_stand,name=LoadStatus,limit=1] maxDeaths run gamemode spectator @s
+execute as @a[gamemode=!survival,tag=!immune] at @s unless score @s deaths >= @e[type=armor_stand,name=LoadStatus,limit=1] maxDeaths run gamemode survival @s
 
 
 

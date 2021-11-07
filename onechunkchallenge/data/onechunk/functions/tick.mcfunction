@@ -10,4 +10,4 @@ execute as @a at @s unless data storage loaded isLoaded2 run tellraw @s ["",{"te
 # execute as @a at @s unless data storage loaded isLoaded2 run kill @s
 
 ### Ends secondary loading until datapack is reset ###
-execute as @a at @s unless data storage laoded isLoaded2 run data modify storage loaded isLoaded2 set value 1b
+execute as @a at @s unless data storage loaded isLoaded2 run data modify storage loaded isLoaded2 set value 1b
