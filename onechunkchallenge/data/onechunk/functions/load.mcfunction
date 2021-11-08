@@ -1,7 +1,7 @@
 ### This checks for an isLoaded value and then runs command if it doesn't exist yet ###
 
-execute unless data storage loaded isLoaded run setworldspawn 0 100 0
-execute unless data storage loaded isLoaded run gamerule spawnRadius 0
+execute unless data storage loaded isLoaded run setworldspawn 8 100 8
+execute unless data storage loaded isLoaded run gamerule spawnRadius 5
 execute unless data storage loaded isLoaded run scoreboard objectives add chunks dummy "Unlocked Chunks"
 execute unless data storage loaded isLoaded run scoreboard objectives setdisplay sidebar chunks
 execute unless data storage loaded isLoaded run scoreboard objectives add outsideBorder dummy "Outside Border"
