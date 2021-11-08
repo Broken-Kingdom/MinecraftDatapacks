@@ -10,7 +10,7 @@
  This is just a weird, fun datapack I made for myself and friends and is nowhere near completion, nor do I expect to pick up developing it as it currently is. I DO plan on
  potentially revisiting it and actually creating a proper datapack with a similar idea.
 
-## One Chunk Challenge - 1.0.0
+## One Chunk Challenge - 1.0.1
  This is the 1.0 full release of a datapack I made after watching CallMeKevin's playthrough of Minecraft doing "One Chunk Only" and his change to "Two Chunk Only". I've actually made this for him and I'm hoping he likes it and uses it in his video. 
 
 ## sselesU Death Pack - 1.0.0
