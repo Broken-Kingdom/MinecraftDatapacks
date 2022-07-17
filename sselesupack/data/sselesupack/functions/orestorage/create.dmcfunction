@@ -1,6 +1,0 @@
-# Made by sselesUssecnirP
-
-execute as @e[type=armor_stand] at @s if entity @e[type=item,nbt={Item: {id: "minecraft:ender_chest", Count: 1b}},distance=..1] unless score @s created matches 1 run data merge entity @s {Small: 1b, NoGravity: 1b, Invisible: 1b, CustomName: "{\"text\":\"Storage\"}"}
-execute as @e[type=armor_stand,nbt={CustomName: "{\"text\":\"Storage\"}"}] at @s unless score @s created matches 1 run kill @e[type=item,nbt={Item: {id: "minecraft:ender_chest", Count: 1b}}]
-execute as @e[type=armor_stand,nbt={CustomName: "{\"text\":\"Storage\"}"}] at @s unless block ~ ~2 ~ bedrock run setblock ~ ~2 ~ bedrock
-execute as @e[type=armor_stand,nbt={CustomName: "{\"text\":\"Storage\"}"}] at @s unless score @s created matches 1 run scoreboard players set @s created 1

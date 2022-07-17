@@ -1,32 +1,35 @@
 [
-    {
-      "condition": "minecraft:alternative",
-      "terms": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type": "minecraft:player",
-            "location": {
-              "position": {
-                "x": {
-                  "min": 0.5,
-                  "max": 15.5
-                },
-                "y": {
-                  "min": 0,
-                  "max": 9999
-                },
-                "z": {
-                  "min": 0.5,
-                  "max": 15.5
-                }
-              },
-              "dimension": "minecraft:overworld"
-            }
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:player",
+      "location": {
+        "position": {
+          "x": {
+            "min": 0,
+            "max": 16
+          },
+          "y": {
+            "min": 0,
+            "max": 9999
+          },
+          "z": {
+            "min": 0,
+            "max": 16
           }
         }
-      ]
+      }
+    }
+  },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "location": {
+          "dimension": "minecraft:overworld"
+        }
+      }
     }
   ]
   

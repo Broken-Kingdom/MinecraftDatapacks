@@ -1,6 +1,0 @@
-# Made by sselesUssecnirP
-
-execute as @e[type=armor_stand,nbt={CustomName: "{\"text\":\"Storage\"}"}] at @s if score @p[distance=..3] cmdTrigger matches -6 if score @p[distance=..3] redstone >= @p 64 run give @p[distance=..3] redstone 64
-execute as @e[type=armor_stand,nbt={CustomName: "{\"text\":\"Storage\"}"}] at @s if score @p[distance=..3] cmdTrigger matches -6 if score @p[distance=..3] redstone >= @p 64 run scoreboard players remove @p[distance=..3] redstone 64
-execute as @e[type=armor_stand,nbt={CustomName: "{\"text\":\"Storage\"}"}] at @s if score @p[distance=..3] cmdTrigger matches -6 if score @p[distance=..3] emeralds >= @p 64 run tellraw @p ["",{"text":"Redstone","bold":true,"color":"dark_red"},{"text":" =","color":"white"},{"text":" ","color":"green"},{"score":{"name":"@s","objective":"redstone"},"color":"light_purple"}]
-execute as @e[type=armor_stand,nbt={CustomName: "{\"text\":\"Storage\"}"}] at @s if score @p[distance=..3] cmdTrigger matches -6 run scoreboard players set @p[distance=..3] cmdTrigger 0

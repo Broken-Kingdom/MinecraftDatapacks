@@ -1,3 +1,0 @@
-# Made by sselesUssecnirP
-
-execute as @e[type=armor_stand,name=Crafter] at @s if block ~ ~-1 ~ dropper{Items: [{Slot: 0b, id: "minecraft:bedrock", Count: 6b}, {Slot: 1b, id: "minecraft:bedrock", Count: 6b}, {Slot: 2b, id: "minecraft:bedrock", Count: 6b}, {Slot: 3b, id: "minecraft:bedrock", Count: 6b}, {Slot: 4b, id: "minecraft:ender_eye", Count: 32b}, {Slot: 5b, id: "minecraft:bedrock", Count: 6b}, {Slot: 6b, id: "minecraft:bedrock", Count: 6b}, {Slot: 7b, id: "minecraft:bedrock", Count: 6b}, {Slot: 8b, id: "minecraft:bedrock", Count: 6b}]} run data merge block ~ ~-1 ~ {Items: [{Slot: 4b, id: "minecraft:end_portal_frame", Count: 1b}]}

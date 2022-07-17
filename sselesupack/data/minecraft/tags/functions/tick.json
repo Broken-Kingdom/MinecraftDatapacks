@@ -1,3 +1,8 @@
 {
-    "values": [ "sselesupack:main/main" ]
+    "values": [
+        "sselesu:tick",
+        "crafting:tick",
+        "blockbreaker:tick",
+        "ore_generator:tick"
+    ]
 }

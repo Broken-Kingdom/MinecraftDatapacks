@@ -1,3 +1,7 @@
 {
-	"values": [ "sselesupack:main/reload", "sselesupack:main/load" ]
+    "values": [
+        "sselesu:load",
+        "crafting:load",
+        "ore_generator:load"
+    ]
 }

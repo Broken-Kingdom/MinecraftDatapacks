@@ -1,0 +1,8 @@
+{
+    "values": [
+        "daycounter:tick",
+        "time_tracker:tick",
+        "give_items:tick",
+        "expandedvanilla:tick"
+    ]
+}

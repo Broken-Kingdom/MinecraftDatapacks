@@ -1,0 +1,33 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item: {id: \"minecraft:diamond_block\", Count: 1b}}",
+				"location": {
+					"dimension": "minecraft:the_nether",
+					"fluid": {
+						"fluid": "minecraft:lava"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"nbt": "{Item: {id: \"minecraft:diamond_block\", Count: 1b}}",
+				"location": {
+					"dimension": "minecraft:the_nether",
+					"fluid": {
+						"fluid": "minecraft:flowing_lava"
+					}
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+    "condition": "alternative",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{SelectedItem: {id:\"minecraft:clock\", tag: {Tags: [\"timeTracker\"]}}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{Inventory: [{Slot: -106b, id:\"minecraft:clock\", tag: {Tags: [\"timeTracker\"]}}]}"
+            }
+        }
+        
+    ]
+}

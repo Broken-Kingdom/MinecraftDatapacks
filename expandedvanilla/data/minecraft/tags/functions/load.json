@@ -1,0 +1,8 @@
+{
+    "values": [
+        "daycounter:load",
+        "time_tracker:load",
+        "give_items:load",
+        "expandedvanilla:load"
+    ]
+}

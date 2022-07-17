@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 6,
-        "description": "(legacy datapack) A basic pack of some neat additions for my server."
+        "pack_format": 8,
+        "description": "A datapack made to add one or multiple vanilla mods."
     }
 }
